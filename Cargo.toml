@@ -1,7 +1,9 @@
 [package]
-name = "StructIter"
+name = "struct_ext"
 version = "0.1.0"
 edition = "2021"
+description = "A macro to generate an iterator over the fields of a struct."
+license = "MIT"
 
 [lib]
 proc-macro = true
