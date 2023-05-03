@@ -19,8 +19,6 @@ pub fn iterate_fields_derive(input: TokenStream) -> TokenStream {
     };
 
     let field_names: Vec<_> = fields.iter().map(|f| f.ident.as_ref().unwrap()).collect();
-    let field_count = field_names.len();
-    let field_indices = 0..field_count;
 
     let gen = quote! {
         impl #impl_generics #struct_name #ty_generics #where_clause {
