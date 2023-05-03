@@ -1,4 +1,4 @@
-use StructIter::IterateFields;
+use struct_ext::IterateFields;
 
 #[derive(IterateFields)]
 struct MyStruct {
