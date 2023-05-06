@@ -2,7 +2,7 @@
 name = "struct_ext"
 version = "0.1.0"
 edition = "2021"
-description = "A macro to generate an iterator over the fields of a struct."
+description = "A set of useful derive macros for structs"
 license = "MIT"
 
 [lib]
